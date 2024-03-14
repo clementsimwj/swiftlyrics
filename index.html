@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Asset/favicon.png">
+    <title>SwiftLyrics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="songForm">
+        <input type="text" id="songName" placeholder="Enter a Song">
+        <button type="submit">Search</button>
+        <button id="clear" onclick="window.location.reload()">Clear</button>
+    </form>
+    <br>
+    <div id="songDesc" style="display: block">
+        <h1 id="disclaimer">Disclaimer: The lyrics of certain songs may not be accurate! Some songs are missing! This was made for fun! I Hope you enjoy</h1>
+        <h1 id="heading"></h1>
+        <img src="" id="albumCover">
+        <h1 id="songAlbum"></h1>
+    </div>
+    <br>
+    <div id="lyricsContainer" style="display: none">
+        <p id="songLyrics" class="lyrics"></p>
+    </div>
+    <script src="index.js"></script> 
+</body>
+</html>

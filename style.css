@@ -1,0 +1,101 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(90, 90, 90);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('Asset/backgroundImage.jpg');
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+#disclaimer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    color: rgb(49, 9, 9);
+}
+#songForm{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#songName{
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px;
+    width: 300px;
+    border: none;
+}
+
+button[type="submit"]{
+    margin-top: 15px;
+    padding: 8px 8px;
+    margin-right: 4px;
+    background-color: rgb(24, 139, 192);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: hsl(199, 78%, 22%);
+}
+#clear{
+    padding: 8px 8px;
+    background-color: rgb(64, 184, 84);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 3rem;
+    cursor: pointer;
+}
+#clear:hover{
+    background-color: hsl(130, 56%, 11%);
+}
+
+#songDesc{
+    border-radius: 8px;
+    padding: 10px 30px;
+    max-width: 300px;
+    box-shadow: 5px 5px 10px rgba(37, 37, 37, 0.753);
+    background: rgba(214, 214, 214, 0.637);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+#albumCover{
+    width: 150px;
+    border-radius: 2px;
+    box-shadow: 5px 5px 15px rgba(37, 37, 37, 0.829);
+
+}
+#songAlbum{
+    font-size: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lyrics{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1rem;
+    color:rgb(17, 7, 7);
+}
+#lyricsContainer{
+    padding: 10px;
+    border: 2px  black;
+    align-items: center;
+    border-radius: 10px;
+    background: rgba(214, 214, 214, 0.603);
+}
